@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <!-- Character encoding using in the page -->
+        <meta charset="UTF-08">
+        <!-- The description of the page -->
+        <meta name="description" content="This page is ">
+        <!-- The Website creator-->
+        <meta name="author" content="Mario Hafez Shafik Tawadrous">
+        <!-- This meta to make the page responsive with all devices scales -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title of the page -->
+        <title>Learing is a lifelong process</title>
+        <!-- Favicon of the website -->
+        <link rel="icon" type="image/x-icon" href="">
+        <!-- Styling of the page (CSS file) -->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <!-- Header of the page-->
+        <div id="header">
+            <image src="images/logo.png" style="width: 30px; height: 30px; margin-top: 20px; margin-left: 20px;">
+            <ul style="list-style-type: none ; padding-top: 15px; padding-left: 15px; float: right; margin: 0px">
+                <li class="nav_bar">
+                    <a class="nav_bar_a"  href="index.html">Home</a>
+                </li>
+                <li class="nav_bar">
+                    <a class="nav_bar_a" href="">About</a>
+                </li>
+                <li class="nav_bar">
+                    <a class="nav_bar_a" href="">Contact</a>
+                </li>
+                <li class="nav_bar">
+                    <a class="nav_bar_a" href="">Log In</a>
+                </li>
+                <li class="nav_bar">
+                    <a id="active" class="nav_bar_a" href="">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    <!--------------------------------------------------------------------------------------------------------->
+        <!-- Navigation bar -->
+        <div id="nav_bar">
+
+        </div>
+    <!--------------------------------------------------------------------------------------------------------->
+        <!-- Contnet of the page -->
+        <div id="content">
+
+            <!--------------------------------------------------------------------------------------------------------->
+            <!-- Block 8 -->
+            <div id="block8" class="row">
+                <!-- Left half -->
+                <div class="column">
+                    <image id="img_8" src="images/wqe-min.jpg">
+                </div>
+                <!-- Right half-->
+                <div id="block8_r" class="column" >
+                    <p style="font-size: 48px;">CONTACT US!</p>
+        
+                    <!-- Regisration form-->
+                    <form action="thanks.html" method="get" >
+                       
+            
+                        <label for="firstName">First Name: </label>
+                        <input type="text" placeholder="Enter your first name" name="firstName" id="firstName" minlength="3" maxlength="10" required tabindex="1">
+                        <br>
+                        <br>
+                        <label for="lastName">Last Name: </label>
+                        <input type="text" placeholder="Enter your last name" name="lastName" id="lastName" minlength="3" maxlength="10" required tabindex="2">
+                        <br>
+                        <br>
+                        <label for="email">Email: </label>
+                        <input type="email" placeholder="Enter your email" name="email" id="emial" required tabindex="3">
+                        <br>
+                        <br>
+                        <label for="password">Password:</label>
+                        <input type="password" placeholder="Enter password" name="password" id="password" tabindex="4">
+                        <br>
+                        <br>
+                        <label for="password_re">Repeat password:</label>
+                        <input type="password" placeholder="Enter password agian" name="password_re" id="password_re" tabindex="5">
+                        <br>
+                        <br>
+                        <label for="birth_date">Birth date:</label>
+                        <input type="date" name="birth_date" id="birth_date">
+                        <br>
+                        <br>
+                        <fieldset>
+                            <legend>Choose your gender</legend>
+                            <input type="radio" name="gender" value="Male" id="g_male">
+                            <label for="g_male">Male</label>
+                            <br>
+                            <input type="radio" name="gender" value="Female" id="g_female">
+                            <label for="g_female">Female</label>
+                            <br>
+                        </fieldset>
+                        <br>
+                        <br>
+                        <!-- <label for="faculty">Faculty:</label>
+                        <select id="faculty" name="faculty">
+                            <option>Aswan University</option>
+                            <option>Cairo University</option>
+                            <option>Ain Shams University</option>
+                            <option>South Valley University</option>
+                            <option>Assuit University</option>
+                            <option>Minia University</option>
+                        </select> -->
+                        <br>
+                        <br>
+                        <fieldset>
+                            <legend>Interests</legend>
+                            <input type="checkbox" name="programming" id="programming">
+                            <label for="programming">Programming</label>
+                            <br>
+                            <input type="checkbox" name="reading" id="reading">
+                            <label for="reading">Reading</label>
+                            <br>
+                            <input type="checkbox" name="swimming" id="swimming">
+                            <label for="swimming">Swimming</label>
+                            <br>
+                            <input type="checkbox" name="running" id="running">
+                            <label for="running">Running</label>
+                            <br>
+                        </fieldset>
+                        <br>
+                        <label for="about">About you:</label>
+                        <br>
+                        <textarea cols="50" rows="10" id="about" placeholder="Write about yourself"></textarea>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="agree" id="agree" required>
+                        <label for="agree">
+                            <a href="terms_and_condition.html" target="_blank">I agreed to terms and condition checkbox</a>
+                        </label>
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </form>
+                </div>
+            </div>
+
+
+
+        <!-- Footer of the page -->
+        <div id="footer">
+            <a href="#header" style="position: static; float: right;"><img></a>
+        </div>
+    </body>
+</html>
