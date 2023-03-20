@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <!-- Character encoding using in the page -->
+        <meta charset="UTF-08">
+        <!-- The description of the page -->
+        <meta name="description" content="This page is ">
+        <!-- The Website creator-->
+        <meta name="author" content="Mario Hafez Shafik Tawadrous">
+        <!-- This meta to make the page responsive with all devices scales -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title of the page -->
+        <title>Learing is a lifelong process</title>
+        <!-- Favicon of the website -->
+        <link rel="icon" type="image/x-icon" href="">
+        <!-- Styling of the page (CSS file) -->
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            #submit_button{
+                width: 100px;
+                height: 40px;
+                font-size: 30px;
+                color: white;
+                background-color: rgb(44, 204, 196);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header of the page-->
+        <div id="header">
+            <image src="images/logo.png" style="width: 30px; height: 30px; margin-top: 20px; margin-left: 20px;">
+            <ul style="list-style-type: none ; padding-top: 15px; padding-left: 15px; float: right; margin: 0px">
+                <li class="nav_bar">
+                    <a class="nav_bar_a"  href="index.html">Home</a>
+                </li>
+                <li class="nav_bar">
+                    <a class="nav_bar_a" href="">About</a>
+                </li>
+                <li class="nav_bar">
+                    <a class="nav_bar_a" href="">Contact</a>
+                </li>
+                <li class="nav_bar">
+                    <a id="active" class="nav_bar_a" href="">Log In</a>
+                </li>
+                <li class="nav_bar">
+                    <a class="nav_bar_a" href="regiteration.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    <!--------------------------------------------------------------------------------------------------------->
+        <!-- Navigation bar -->
+        <div id="nav_bar">
+
+        </div>
+    <!--------------------------------------------------------------------------------------------------------->
+        <!-- Contnet of the page -->
+        <div id="content">
+
+            <!--------------------------------------------------------------------------------------------------------->
+            <!-- Block 8 -->
+            <div id="logIn" class="row">
+                <!-- Left half -->
+                <div class="column">
+                    <image id="img_logIn" src="images/fsae-min.jpg">
+                </div>
+                <!-- Right half-->
+                <div id="logIn_r" class="column" >
+                    <p style="font-size: 48px; font-weight: bold; color: rgb(44, 204, 196)">Log In!</p>
+        
+                    <!-- Regisration form-->
+                    <form action="index.html" method="get" >
+                       
+                        <label for="email">Email: </label>
+                        <input type="email" placeholder="Enter your email" name="email" id="emial" required tabindex="1" required>
+                        <br>
+                        <br>
+                        <label for="password">Password:</label>
+                        <input type="password" placeholder="Enter password" name="password" id="password" tabindex="2" required>
+                        <br>
+                        <br>
+                        <br>
+                        <input id="submit_button" type="submit" value="Log In">
+  
+                    </form>
+                </div>
+            </div>
+
+
+
+        <!-- Footer of the page -->
+        <div id="footer">
+            
+        </div>
+    </body>
+</html>
